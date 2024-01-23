@@ -24,8 +24,10 @@ body {
 	border: 1px solid #CCC;
 }
 
-p a:hover{
-	background-color:red;
+a:hover{
+	background-color:#c0c0c0;
+	padding:3px;
+	
 }
 
 #header h1 a {
