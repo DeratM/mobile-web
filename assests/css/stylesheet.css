@@ -1,3 +1,18 @@
+body{
+    background-image: url("../imgs/blob-scene-haikei.svg");
+    background-repeat: none;
+    background-size: cover;
+
+}
+
+
+
+h1{
+    padding:10px;
+    color:white;
+    text-align: center;
+    font-size:40px ;
+}
 
 ul{
     display: grid;
@@ -7,19 +22,22 @@ ul{
     grid-gap:10px;
     list-style-type: none;
     padding:10px;
-    background-color: lightcoral;
+    background-color: #fbad3c;
 }
 
 li{
-    background-color: gray;
+    background-color: #c0526a;
     border:1px solid #000;
-    padding: 50px;
+    padding: 25px;
+    text-align: center;
+    color:#18223c;
+    font-size: 18px;
 }
 
 
 /* Max Width */
 
-@media screen and (max-width: 600px){ 
+@media screen and (max-width: 850px){ 
     ul{
      grid-template-columns: 1fr;
     }
