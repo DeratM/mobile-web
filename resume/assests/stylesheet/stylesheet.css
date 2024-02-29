@@ -28,8 +28,15 @@
   
   /* ------ Typography -------*/
   body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Merriweather";
   }
+
+  .merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
   
   /* ------ Fluid Images -------*/
   img {
@@ -178,12 +185,6 @@
     background: rgba(0, 0, 0, 0.95);
   }
   
-  .related-links li {
-  
-  }
-  
-  #skills {
-  }
   #skills li {
     list-style-type: square;
   }
@@ -210,3 +211,36 @@
     text-align: center;
     padding: 20px 0;
   }
+
+  .page-title {
+    grid-area: title;
+  }
+  #about {
+    grid-area: about;
+  }
+  #examples {
+    grid-area: examples;
+  }  
+  #skills {
+    grid-area: skills;
+  }
+  #experience {
+    grid-area: experience;
+  }
+  #education {
+    grid-area: education;
+  }  
+
+  main{
+    display:grid;
+    grid-template-areas:
+      "title"
+      "about"
+      "education"
+      "skills"
+      "experience"
+      "examples"
+      ;
+  }
+
+  
